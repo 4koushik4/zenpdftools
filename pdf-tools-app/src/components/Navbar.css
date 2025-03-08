@@ -1,0 +1,90 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+/* Logo and Fundraiser container */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+}
+
+/* Fundraiser container */
+.Fundraiser {
+  margin-right: 20%; /* Reduced space between logo and fundraiser */
+}
+
+/* Fundraiser link as button */
+.Fundraiser a {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Vibrant gradient */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 16px; /* Slightly smaller padding for compact design */
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  animation: pulse 1.5s infinite; /* Subtle pulsing effect */
+  display: inline-block;
+}
+
+.Fundraiser a:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0px 0px 15px rgba(255, 75, 43, 0.8); /* Glowing effect */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 75, 43, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 75, 43, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 75, 43, 0.5);
+  }
+}
+
+/* Navbar links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+/* Convert PDF dropdown */
+.convert-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
