@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/zenpdftools/static/css/main.8930eb53.css",
+    "main.js": "/zenpdftools/static/js/main.71281543.js",
+    "static/js/239.19858568.chunk.js": "/zenpdftools/static/js/239.19858568.chunk.js",
+    "static/js/977.0146fff7.chunk.js": "/zenpdftools/static/js/977.0146fff7.chunk.js",
+    "static/js/455.32b5d661.chunk.js": "/zenpdftools/static/js/455.32b5d661.chunk.js",
+    "static/js/488.c3b151fa.chunk.js": "/zenpdftools/static/js/488.c3b151fa.chunk.js",
+    "index.html": "/zenpdftools/index.html",
+    "main.8930eb53.css.map": "/zenpdftools/static/css/main.8930eb53.css.map",
+    "main.71281543.js.map": "/zenpdftools/static/js/main.71281543.js.map",
+    "239.19858568.chunk.js.map": "/zenpdftools/static/js/239.19858568.chunk.js.map",
+    "455.32b5d661.chunk.js.map": "/zenpdftools/static/js/455.32b5d661.chunk.js.map",
+    "488.c3b151fa.chunk.js.map": "/zenpdftools/static/js/488.c3b151fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8930eb53.css",
+    "static/js/main.71281543.js"
+  ]
+}
